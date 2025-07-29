@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const commandSpan = document.querySelector('.command-text');
 
     if (terminalContainer && terminalContent && commandSpan) {
-        const commandText = "Welcome https://https://www.linkedin.com/in/essam02002";
+        const commandText = "Welcome https://www.linkedin.com/in/essam02002";
 
         let i = 0;
         const typeCommand = () => {
