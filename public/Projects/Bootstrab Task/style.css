@@ -1,0 +1,214 @@
+:root {
+    --light: #ffffff;
+    --background-color: #f7f7f7;
+    --dark: #060606;
+    --blacke: #111111;
+    --dark-light: #212529;
+    --gray: #444444;
+    --green: #1BBD36;
+    --blue-light: #0DCAF0;
+    --orange-light: #FD7E14;
+    --green-blue: #20C997;
+    --danger-light: #DF1529;
+    --purple-light: #6610F2;
+    --pink-light: #F3268C;
+}
+
+/* ---------------------------- */
+.blue-light {
+    color: var(--blue-light);
+}
+
+.orange-light {
+    color: var(--orange-light);
+}
+
+.green-blue {
+    color: var(--green-blue);
+}
+
+.danger-light {
+    color: var(--danger-light);
+}
+
+.purple-light {
+    color: var(--purple-light);
+}
+
+.pink-light {
+    color: var(--pink-light);
+}
+
+/* ---------------------------- */
+
+.navbar .active {
+    color: var(--green) !important;
+}
+
+.color-Success {
+    color: var(--green);
+}
+
+.navbar .nav-link {
+    font-size: .9rem;
+}
+
+.navbar .nav-link:hover {
+    color: var(--green);
+}
+
+/* End of Navabr */
+
+.carousel-item img {
+    height: 44rem;
+    object-fit: cover;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-color: var(--light);
+    opacity: 1;
+    margin: .2rem;
+}
+
+.carousel-indicators .active {
+    background-color: var(--green);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.2);
+    background-size: 2rem;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    padding: 1.5rem;
+}
+
+.carousel-control-next:hover .carousel-control-next-icon,
+.carousel-control-prev:hover .carousel-control-prev-icon {
+    background-color: var(--green);
+}
+
+.custom-caption {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    border-top: 0.3rem solid var(--green);
+    padding: 3.5rem 0rem;
+    margin-bottom: 2rem;
+    border-radius: 0;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+}
+
+.custom-btn {
+    background-color: transparent;
+    color: var(--light);
+    border: 2px solid var(--green);
+    padding: 0.5rem 1.5rem;
+    transition: 0.3s ease;
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+
+.custom-btn:hover {
+    background-color: var(--green);
+    color: white;
+}
+
+/* End of carousel */
+.col-md-6 {
+    cursor: pointer;
+}
+
+
+.text-gray {
+    color: var(--gray);
+}
+
+.watch:hover {
+    color: var(--green);
+}
+
+.watch {
+    transition: color 0.2s ease-in-out;
+}
+
+
+
+.card-py:hover .translate-middle {
+    color: var(--light);
+}
+
+
+
+.card-1:hover .custom-shape {
+    fill: var(--blue-light);
+}
+
+.card-2:hover .custom-shape {
+    fill: var(--orange-light);
+}
+
+.card-3:hover .custom-shape {
+    fill: var(--green-blue);
+}
+
+.card-4:hover .custom-shape {
+    fill: var(--danger-light);
+}
+
+.card-5:hover .custom-shape {
+    fill: var(--purple-light);
+}
+
+.card-6:hover .custom-shape {
+    fill: var(--pink-light);
+}
+
+.blue-light {
+    transition: color 0.4s ease-in-out;
+}
+
+.custom-shape {
+    transition: fill 0.4s ease-in-out;
+}
+
+/* ------------ */
+
+#portfolio .selected {
+    background-color: var(--green);
+}
+
+#portfolio .btn-hover:hover {
+    background-color: var(--green);
+}
+
+/* -------------- */
+
+.container .clien .col-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 160px;
+}
+
+.container .clien .img-fluid {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.client-img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.clien .col-6:hover .client-img,
+.clien .col-md-3:hover .client-img {
+    transform: scale(1.1);
+}

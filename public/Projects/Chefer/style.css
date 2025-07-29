@@ -1,0 +1,1260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+/* Top Chefer  */
+.header {
+    width: 100%;
+    display: flex;
+    height: 18.7vh;
+    background-color: #000;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    background-color: #FB5B21;
+    width: 500px;
+    justify-content: center;
+}
+
+.header .logo h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Emblema one';
+}
+
+.header .contener {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header .top-nav {
+    padding-top: 6px;
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    background-color: #222429;
+    justify-content: space-between;
+}
+
+.header .item-email,
+.item-phone {
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.header .contener .email,
+.phone {
+    color: #686A6F;
+}
+
+.header .top-nav .bx {
+    color: #FB5B21;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+/* End of top nav  */
+
+.header .bottom-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.header .bottom-nav .item-home,
+.item-contact {
+    padding-left: 3rem;
+    padding-right: 4rem;
+}
+
+.header .contener-bottom {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .item-home a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #bdbdbf;
+    padding-right: 1.1rem;
+    font-size: 16px;
+}
+
+.header .item-home a:hover,
+.header .item-home .select-text:hover {
+    color: #FB5B21;
+    transition: color 0.3s ease;
+}
+
+.header .item-home .selected {
+    color: #FB5B21;
+}
+
+.header .item-home .select-text {
+    color: #bdbdbf;
+    border: none;
+    background-color: transparent;
+}
+
+.header .item-home .info-text {
+    color: #000;
+}
+
+.header .contener-bottom .bx {
+    font-size: 25px;
+    color: #bdbdbf;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.header .item-home .select-text {
+    cursor: pointer;
+    font-size: 16px;
+    width: 67px;
+    margin-right: 20px;
+}
+
+/* End of Navbar  */
+
+
+.Section-john {
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #222429;
+    box-sizing: border-box;
+}
+
+.Section-john .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+.Section-john .cards .card-one {
+    padding: 6px;
+    border: 1px solid #000;
+    background: linear-gradient(170deg, rgba(52, 93, 129, 0.08) 1.85%, rgba(57, 46, 75, 0.08) 98%);
+    border-radius: 2rem;
+    animation: toLeft 0.8s;
+}
+
+
+.Section-john .header-two {
+    padding: 70px 0 40px 0;
+}
+
+
+.Section-john .header-two .info-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    font-size: 66px;
+}
+
+.Section-john .header-two h2 {
+    font-family: 'Emblema one';
+    color: #bdbdbf;
+    font-weight: 100;
+}
+
+/* ------- 3 cards -------- */
+
+.Section-john .Cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+
+.header .sub-title {
+    color: #ff5722;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header .main-title {
+    font-size: 32px;
+    color: #1c1c3f;
+    text-align: center;
+}
+
+
+.testimonial-card {
+    height: 77vh;
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    background: #222429;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+
+}
+
+.testimonial-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-icon {
+    font-size: 36px;
+    color: #4caf50;
+    margin-bottom: 20px;
+}
+
+.testimonial-text {
+    font-style: italic;
+    color: #BDBDBF;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+}
+
+.author {
+    font-weight: bold;
+    color: #1c1c3f;
+    margin-bottom: 5px;
+}
+
+.role {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.testimonial-image {
+    flex: 1;
+    background: #222429;
+}
+
+.testimonial-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Cards .testimonial-content .bx {
+    font-size: 40px;
+    transform: scaleY(2);
+    color: #B5B5B7;
+    margin: 25px 0;
+    animation: arrow 0.9s ease-in-out infinite;
+    position: relative;
+}
+
+@keyframes arrow {
+    0% {
+        top: 0px;
+    }
+
+    10% {
+        top: 3px;
+    }
+
+    20% {
+        top: 6px;
+    }
+
+    30% {
+        top: 8px;
+    }
+
+    40% {
+        top: 10px;
+    }
+
+    50% {
+        top: 12px;
+    }
+
+    60% {
+        top: 10px;
+    }
+
+    70% {
+        top: 8px;
+    }
+
+    80% {
+        top: 6px;
+    }
+
+    90% {
+        top: 3px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+/* End of Section - john  */
+/* --------------- */
+
+/* Top Section-Cooking  */
+
+.Section-Cooking .contener-cooking {
+    display: flex;
+    flex-direction: row;
+    margin: 60px 30px;
+}
+
+.Section-Cooking .part-one {
+    margin: 20px;
+}
+
+
+.Section-Cooking .part-one .chef {
+    border-radius: 50% 10px 10px;
+    width: 35rem;
+
+}
+
+.Section-Cooking .part-one .postion {
+    position: absolute;
+    z-index: -1;
+    animation: postion 8s linear infinite;
+}
+
+@keyframes postion {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* End part one  */
+
+.Section-Cooking .part-two {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.Section-Cooking .part-two .about-us {
+    font-size: 20px;
+    font-family: 'Poppins';
+    letter-spacing: 0.5rem;
+    color: #FB5B21;
+    padding-bottom: 10px;
+}
+
+.Section-Cooking .part-two .cooking-together h2 {
+    font-size: 4rem;
+    font-family: 'Emblema one';
+    color: #222429;
+    padding-bottom: 1rem;
+}
+
+.Section-Cooking .part-two .paragraph p {
+    color: #686A6B;
+    padding-bottom: 2rem;
+}
+
+
+.Section-Cooking .part-two .cards-chef {
+    display: flex;
+    flex-direction: row;
+}
+
+.Section-Cooking .part-two .first-card,
+.Section-Cooking .part-two .second-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F5F8;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem 0;
+}
+
+.Section-Cooking .part-two .cards-chef img {
+    background-color: #FB5B21;
+    border-radius: 50%;
+    width: 75px;
+}
+
+.Section-Cooking .part-two .cards-chef h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+/* End of cooking  */
+
+.Section-Years {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40vh;
+    background-color: #222429;
+}
+
+.Section-Years .contener {
+    margin: 0 10rem 0 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Section-Years .contener .years-line {
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.Section-Years .years-line .star {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Section-Years .years-line .bx {
+    background-color: #111111;
+    color: #FB5B21;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 0 1.5rem;
+}
+
+.Section-Years .years-line .bx-check {
+    font-weight: bolder;
+}
+
+.Section-Years .years-line .p-text,
+.p-num {
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.Section-Years .years-line .p-num {
+    font-size: 3rem;
+    font-family: 'Emblema one';
+    color: #BDBDBF;
+    font-weight: 300;
+}
+
+/* End of Section-Years */
+
+.Section-Discount {
+    height: 130vh;
+    background: linear-gradient(to top, #222429 0 80%, #fff 80% 100%);
+}
+
+.Section-Discount .top-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6rem 3.5rem;
+}
+
+
+
+.Section-Discount .top-cards .card {
+    height: 62vh;
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top, #2e2e2ecd 0%, #e3e3e3 50% 100%);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+.Section-Discount .top-cards .card-img {
+    display: flex;
+    justify-content: center;
+}
+
+.Section-Discount .top-cards .card-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.Section-Discount .top-cards .content-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #F4F5F8;
+    margin-top: 3rem;
+    line-height: 4rem;
+}
+
+.Section-Discount .content-text h3 {
+    font-size: 1.5rem;
+    font-family: 'Emblema one';
+    color: #222429;
+}
+
+.Section-Discount .content-text .p-text {
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.Section-Discount .content-text .p-link {
+    font-weight: bold;
+    color: #FB5B21;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.Section-Discount .content-text .p-link:hover {
+    color: #d13800;
+    transition: 0.1s;
+}
+
+.Section-Discount .content-text .p-link .bx {
+    margin: 10px 0 0 10px;
+    font-size: 10px;
+    transform: scaleX(6);
+    font-weight: 400;
+}
+
+.Section-Discount .discount .contener-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Emblema one';
+    color: #BDBDBF;
+}
+
+.Section-Discount .discount .contener-two .summer {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.Section-Discount .discount .contener-two .dis {
+    color: #FB5B21;
+}
+
+.Section-Discount .discount .contener-two .order {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 41rem;
+    background-color: #FB5B21;
+    border-radius: .5rem;
+}
+
+.Section-Discount .discount .contener-two .order:hover {
+    background-color: #FC7442;
+    color: #000;
+    transition: 0.4s;
+}
+
+/* End of Section-Discount */
+
+.Section-Hands {
+    display: flex;
+    height: 150vh;
+}
+
+.Section-Hands .contener-hands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.Section-Hands .Hands-Craft {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Section-Hands .Hands-Craft p {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    letter-spacing: 8px;
+    color: #FB5B21;
+}
+
+.Section-Hands .Hands-Craft h3 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #FB5B21;
+    font-family: 'Emblema one';
+    color: #222429;
+    font-weight: 300;
+}
+
+
+
+.Section-Hands .contener-hands .breakfast-menu {
+    background-color: #222429;
+    margin: 3rem;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding: .5rem 0;
+}
+
+.Section-Hands .breakfast-menu .col {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.6rem 1.5rem;
+    margin: 0 0.5rem;
+    border-radius: 50px;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+.Section-Hands .breakfast-menu .selected {
+    background-color: #FB5B21;
+    color: white;
+    border: 2px solid #FB5B21;
+}
+
+.Section-Hands .breakfast-menu .col:hover {
+    background-color: #FB5B21;
+    color: white;
+}
+
+.Section-Hands .breakfast-menu .selected:hover {
+    background-color: #e14a11;
+    color: white;
+}
+
+/* ------------ Img -------------- */
+
+.Section-Hands .contener-img .row {
+    display: flex;
+}
+
+.Section-Hands .contener-img .img-item {
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+
+.Section-Hands .contener-img .img-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.Section-Hands .contener-img .img-item img:hover {
+    opacity: 0.7;
+}
+
+
+.Section-Hands .contener-img .btn-bbq {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    background-color: #222429;
+    color: #FB5B21;
+    padding: 6px 1rem;
+    border-radius: 2rem;
+    font-size: 14px;
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* End of Section-Hands  */
+
+.Section-Expert {
+    display: flex;
+    height: 120vh;
+}
+
+.Section-Expert .contener-expert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.Section-Expert .Expert-chefs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Section-Expert .Expert-chefs p {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    letter-spacing: 8px;
+    color: #FB5B21;
+}
+
+.Section-Expert .Expert-chefs h3 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #FB5B21;
+    font-family: 'Emblema one';
+    color: #222429;
+    font-weight: 300;
+}
+
+/* ========================= */
+
+.Section-Expert .contener-expert .item-contener {
+    display: flex;
+    margin: 1rem 3rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.Section-Expert .contener-expert .img-item {
+    position: relative;
+    width: 32%;
+    overflow: hidden;
+    border-radius: 50% 3% 3% 3%;
+    height: 33rem;
+}
+
+.Section-Expert .contener-expert .img-item img {
+    width: 100%;
+    height: 38rem;
+    object-fit: cover;
+    border-radius: 50% 3% 3% 3%;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Section-Expert .contener-expert .John-Deo {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(34, 36, 41, .9);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    z-index: 2;
+}
+
+.Section-Expert .contener-expert .John-Deo P {
+    text-transform: uppercase;
+}
+
+.Section-Expert .contener-expert .John-Deo .deo {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.Section-Expert .contener-expert .info .Master {
+    margin: 0;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    color: #ccc;
+}
+
+.Section-Expert .contener-expert .overlay {
+    position: absolute;
+    bottom: 5.25rem;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(34, 36, 41, .9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: height 0.4s ease-in-out;
+    z-index: 1;
+}
+
+
+.Section-Expert .contener-expert .img-item:hover .overlay {
+    height: calc(100% - 4rem);
+}
+
+
+.Section-Expert .contener-expert .social-icons {
+    display: flex;
+    gap: 1rem;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.Section-Expert .img-item:hover .social-icons {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.Section-Expert .contener-expert .social-icons a {
+    color: #000;
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: transform 0.3s ease, background-color 0.3s;
+}
+
+.Section-Expert .contener-expert .social-icons a:hover {
+    background-color: #FB5B21;
+    transform: scale(1.2);
+}
+
+.Section-Expert .contener-expert .img-item:hover img {
+    transform: translateY(-2rem);
+}
+
+/* End of Section-Expert  */
+
+.Section-Testimonial {
+    display: flex;
+}
+
+.Section-Testimonial .contener {
+    display: flex;
+    flex-direction: row;
+}
+
+.Section-Testimonial .contener .part-one img {
+    border-radius: 50% 0 0 0;
+    height: 100%;
+}
+
+
+
+.Section-Testimonial .part-two {
+    background-color: #222429;
+    border-radius: 0 0 50% 0;
+}
+
+.Section-Testimonial .box-contener {
+    padding: 3rem;
+}
+
+.Section-Testimonial .box-contener .test {
+    color: #FB5B21;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
+
+
+.Section-Testimonial .box-contener h3 {
+    font-size: 4rem;
+    font-weight: 100;
+    font-family: 'Emblema one';
+    color: #BDBDBF;
+    margin-bottom: 2rem;
+}
+
+
+.Section-Testimonial .box-contener .text-p .bx {
+    color: #FB5B21;
+    font-size: 1.6rem;
+}
+
+.Section-Testimonial .box-clients span {
+    color: #F4F5F8;
+    font-size: 1.3rem;
+}
+
+.Section-Testimonial .text-p {
+    margin-bottom: 2rem;
+
+}
+
+.Section-Testimonial .box-clients .info-client {
+    display: flex;
+    flex-direction: row;
+}
+
+.Section-Testimonial .box-clients .info-client img {
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.Section-Testimonial .box-clients .info-client .info-t {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    color: #BDBDBF;
+}
+
+.Section-Testimonial .box-clients .info-client .info-t p {
+    font-size: 1rem;
+    letter-spacing: .2rem;
+}
+
+.Section-Testimonial .box-clients .box-btn {
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+.Section-Testimonial .box-clients .box-btn .bx {
+    background-color: #FB5B21;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.Section-Testimonial .box-clients .box-btn .bx:hover {
+    background-color: #d74510;
+    transition: color .5s ease;
+    color: #000;
+}
+
+/* End of Section-Testimonial  */
+
+.Section-Blog {
+    padding: 4rem 3rem;
+}
+
+.Section-Blog .blog-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.Section-Blog .blog-subtitle {
+    color: #FB5B21;
+    font-size: 1.3rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.Section-Blog .blog-title {
+    font-family: 'Emblema One';
+    font-size: 3rem;
+    color: #222429;
+    font-weight: 300;
+}
+
+.Section-Blog .blog-cards {
+    display: flex;
+    gap: 2rem;
+}
+
+.Section-Blog .blog-card {
+    background-color: #222429;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    overflow: hidden;
+}
+
+.Section-Blog .card-image img {
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease-in-out;
+    overflow: hidden;
+}
+
+.card-image img:hover {
+    transform: scale(1.2);
+}
+
+.Section-Blog .card-content {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.Section-Blog .card-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #BDBDBF;
+}
+
+.card-date .highlight {
+    color: #FB5B21;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.Section-Blog .line-col {
+    height: 5rem;
+    width: .1rem;
+    background-color: #BDBDBF;
+    margin-left: 2rem;
+}
+
+.Section-Blog .card-description {
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: #F4F5F8;
+    line-height: 1.5;
+    padding-left: 2rem;
+    text-align: start;
+    font-family: 'Emblema One';
+}
+
+/* End of Section-Blog  */
+
+.Section-bottom {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.Section-bottom .item-img {
+    display: flex;
+    width: 100%;
+}
+
+.Section-bottom .item-img img {
+    width: 16.67%;
+    display: block;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.Section-bottom .item-img img:hover {
+    opacity: .7;
+}
+
+.Section-bottom .bx {
+    position: absolute;
+    color: #BDBDBF;
+    font-size: 3rem;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+/* End of Section-bottom   */
+
+.Section-Footer {
+    background-color: #222429;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.Section-Footer .contener-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.Section-Footer .footer-columns {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    flex: 2;
+}
+
+.Section-Footer .footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 200px;
+    margin: 0rem 1rem 2rem 0;
+    font-size: 1rem;
+    padding: 0 2rem;
+}
+
+.Section-Footer .footer-col {
+    cursor: pointer;
+}
+
+.Section-Footer .footer-col .bx {
+    color: #FB5B21;
+}
+
+.Section-Footer .footer-col .icons .bx {
+    color: #ffffff;
+}
+
+.Section-Footer .footer-col h3 {
+    color: #FB5B21;
+    font-family: 'Emblema one';
+    color: #F4F5F8;
+    font-size: 2rem;
+}
+
+.Section-Footer .text-num {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    color: #ccc;
+}
+
+.Section-Footer .icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.Section-Footer .icons a {
+    color: white;
+    font-size: 1rem;
+    background-color: #FB5B21;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.Section-Footer .icons a:hover {
+    background-color: #FB5B21;
+}
+
+.Section-Footer .newsletter {
+    flex: 1;
+    max-width: 500px;
+    background-color: #000;
+    padding: 2rem;
+    font-size: 1.5rem;
+
+}
+
+.Section-Footer .newsletter h3 {
+    color: #FB5B21;
+    display: flex;
+    justify-content: center;
+    font-family: 'Emblema one';
+    color: #fff;
+    padding-top: 2rem;
+}
+
+.Section-Footer .newsletter h4 {
+    margin: 1rem 0 0.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Section-Footer .newsletter p {
+    color: #ccc;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.Section-Footer .email {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.Section-Footer .email input[type="email"] {
+    flex: 1;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 0.3rem;
+    outline: none;
+
+}
+
+.Section-Footer .email input[type="submit"] {
+    background-color: #FB5B21;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    transition: background-color 0.3s;
+}
+
+.Section-Footer .email input[type="submit"]:hover {
+    background-color: #b63604;
+}
+
+/* End of Section Footer  */
+
+.Section-Copyright {
+    background-color: #000;
+    color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    padding: 1.7rem 0;
+}
+
+.Section-Copyright .copy {
+    margin: .5rem 4rem;
+    font-size: 1rem;
+}
+
+.Section-Copyright span {
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.back-to-top button {
+    background-color: transparent;
+    border: none;
+    border-radius: 10%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    padding: 2rem 0;
+}
+
+
+#backToTop {
+    position: fixed;
+    bottom: 3rem;
+    right: 5rem;
+    background-color: transparent;
+    color: #e04d10;
+    padding: 2rem 1rem;
+    font-size: 5rem;
+    cursor: pointer;
+    z-index: 999;
+    transition: transform 0.3s ease, background-color 0.3s;
+
+
+}
+
+        /* THE END  */
