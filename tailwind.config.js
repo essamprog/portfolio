@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
     content: ["./public/**/*.{html,js}"],
+    safelist: [
+        "bx",
+        "bxl-tailwind-css",
+    ],
     darkMode: 'class',
     theme: {
         extend: {
@@ -39,7 +43,7 @@ export default {
                 },
                 pulse: {
                     '0%, 100%': { transform: 'scale(1)' },
-                    '50%': {transform: 'scale(1.05'},
+                    '50%': { transform: 'scale(1.05' },
                 }
             }
         },
